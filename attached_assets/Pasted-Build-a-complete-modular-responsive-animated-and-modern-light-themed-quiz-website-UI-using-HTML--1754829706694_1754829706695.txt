@@ -1,0 +1,47 @@
+Build a complete, modular, responsive, animated, and modern light-themed quiz website UI using HTML, CSS (preferably Tailwind CSS), and JavaScript (React or Vue preferred, but plain JS if simpler).  
+
+The website should include:  
+
+1. **Navbar** (fixed top, modern animation on hover) with these menu items:  
+   - Home  
+   - Hindi  
+   - English  
+   - Math  
+   - Science  
+   - Social Science  
+   - GK  
+   - Contest  
+
+2. **Home Page**  
+   - Hero section with animated welcome message and call-to-action button  
+   - Card-style sections for each subject (click navigates to subject page)  
+   - Footer with basic site links and copyright  
+
+3. **Subject Pages** (Hindi, English, Math, Science, Social Science, GK, Contest)  
+   - Section for selecting class level: Class 1 to Class 12 and "Competitive Exams"  
+   - Each class option should be an interactive animated card or button  
+   - Clicking a class should show a "Question Bank List" page  
+
+4. **Question Bank List Page**  
+   - Display list of available question banks for that class (card/list layout)  
+   - Each item clickable to open that specific quiz page  
+
+5. **Quiz Page**  
+   - Display objective-type questions (MCQ) with radio buttons for options  
+   - "Submit" button at bottom, styled prominently  
+   - On submit, display score instantly in a modal or animated score card  
+   - Ensure navigation back to Question Bank List is easy  
+
+6. **UI/UX Requirements**  
+   - Light theme but with modern gradients, shadows, and smooth animations  
+   - Mobile-first responsive design  
+   - Modular component-based structure (NavBar, Footer, Card, QuestionList, QuizForm)  
+   - Smooth page transitions (e.g., fade, slide)  
+   - Clearly marked placeholders for backend API integration (fetching questions, submitting answers)  
+
+7. **Technical Requirements**  
+   - All pages and components well-structured for future backend integration  
+   - Comments in code indicating where to connect API calls for question data and score submission  
+   - Include basic dummy data for questions, classes, and question banks for testing  
+
+Deliver **all pages fully linked together** so I can directly integrate backend APIs later without redoing UI.
